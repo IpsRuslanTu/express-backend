@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "tsc -w",
     "dev": "nodemon --inspect dist/index.js",
-    "build": "yarn tsc",
+    "build": "yarn install && tsc",
     "start": "node dist/index.js"
   },
   "dependencies": {
